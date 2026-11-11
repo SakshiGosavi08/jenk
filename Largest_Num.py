@@ -4,7 +4,7 @@ import sys
 def main():
     try:
         num1_str = os.environ.get('NUM1', '0')
-        num2_str = os.environ.get('NUM2', '0’)
+        num2_str = os.environ.get('NUM2', '0')
 
         num1 = float(num1_str)
         num2 = float(num2_str)
