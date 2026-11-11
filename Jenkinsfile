@@ -18,7 +18,7 @@ pipeline {
         stage('Run Python Program') {
             steps {
                 // Jenkins automatically passes NUM1 and NUM2 as environment variables
-sh 'python find_largest.py'
+sh 'python Largest_Num.py'
             }
         }
     }
